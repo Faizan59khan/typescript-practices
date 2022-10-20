@@ -1,0 +1,553 @@
+[
+  {
+    "id": 190,
+    "name": "Facebook Link Ads",
+    "category": [],
+    "subcategory": null,
+    "title": "Facebook Link Ads",
+    "subtitle": "Facebook Link Ads",
+    "sampleOutputText": "Facebook Link Ads",
+    "displayOn": [],
+    "route": "facebook-link-ads",
+    "apiType": "web-tools",
+    "apiRoute": "facebook-link-ads",
+    "img": {
+      "darkTheme": "/assets/tools_images/dark/Layer 2.png",
+      "lightTheme": "/assets/tools_images/light/Squeeze Page Hero Text Generator.png"
+    },
+    "textInputs": [
+      {
+        "name": "Product Name",
+        "key": "product_name",
+        "placeholder": "INK",
+        "showTextArea": false,
+        "maxLimit": 80,
+        "minLimit": 0
+      },
+      {
+        "name": "Product Desc",
+        "key": "product_desc",
+        "placeholder": "SEO Web Content Writing and Optimization Powered by AI.",
+        "showTextArea": false,
+        "maxLimit": 400,
+        "minLimit": 3
+      },
+      {
+        "name": "Tone of Voice",
+        "key": "tone_of_voice",
+        "placeholder": "",
+        "showTextArea": false,
+        "maxLimit": 80,
+        "minLimit": 0
+      }
+    ],
+    "outputInput": { "minLimit": 10, "maxLimit": 400 },
+    "status": "Updated"
+  },
+  {
+    "id": 191,
+    "name": "Product Feature Tool",
+    "category": [],
+    "subcategory": null,
+    "title": "Product Feature Tool",
+    "subtitle": "Show off your product feature with our creative product feature tool. Write captivating product descriptions with our Product Description Feature Bullets Tool.",
+    "sampleOutputText": "Product Feature Tool",
+    "displayOn": [],
+    "route": "product-feature-tool",
+    "apiType": "web-tools",
+    "apiRoute": "product-feature-tool",
+    "img": {
+      "darkTheme": "/assets/tools_images/dark/Layer 2.png",
+      "lightTheme": "/assets/tools_images/light/Squeeze Page Hero Text Generator.png"
+    },
+    "textInputs": [
+      {
+        "name": "Product Name",
+        "key": "product_name",
+        "placeholder": "INK",
+        "showTextArea": false,
+        "maxLimit": 80,
+        "minLimit": 0
+      },
+      {
+        "name": "Brief Concept",
+        "key": "brief_concept",
+        "placeholder": "SEO Web Content Writing and Optimization Powered by AI.",
+        "showTextArea": false,
+        "maxLimit": 400,
+        "minLimit": 3
+      },
+      {
+        "name": "Tone of Voice",
+        "key": "tone_of_voice",
+        "placeholder": "",
+        "showTextArea": false,
+        "maxLimit": 80,
+        "minLimit": 0
+      }
+    ],
+    "outputInput": { "minLimit": 10, "maxLimit": 400 },
+    "status": "NEW!"
+  },
+  {
+    "id": 192,
+    "name": "Explain To A 5 Year Old",
+    "category": [],
+    "subcategory": null,
+    "title": "Explain To A 5 Year Old",
+    "subtitle": "Need to explain in detail so that a 5-year-old could understand it? Generate easy to comprehend text with our Explain Like I'm five Tool.",
+    "sampleOutputText": "Explain To A 5 Year Old",
+    "displayOn": [],
+    "route": "explain-to-a-5-year-old",
+    "apiType": "web-tools",
+    "apiRoute": "explain-to-a-5-year-old",
+    "img": {
+      "darkTheme": "/assets/tools_images/dark/Layer 2.png",
+      "lightTheme": "/assets/tools_images/light/Squeeze Page Hero Text Generator.png"
+    },
+    "textInputs": [
+      {
+        "name": "Your Sentence",
+        "key": "your_sentence",
+        "placeholder": "In order to keep our household from being overrun by dust and other allergens, we went on a search for the best air purifiers for our office. In this article, we show our top choices for home and office.",
+        "showTextArea": false,
+        "maxLimit": 400,
+        "minLimit": 3
+      },
+      {
+        "name": "Tone of Voice",
+        "key": "tone_of_voice",
+        "placeholder": "",
+        "showTextArea": false,
+        "maxLimit": 80,
+        "minLimit": 0
+      }
+    ],
+    "outputInput": { "minLimit": 10, "maxLimit": 400 },
+    "status": "NEW!"
+  },
+  {
+    "id": 193,
+    "name": "Rewrite With Keywords",
+    "category": [],
+    "subcategory": null,
+    "title": "Rewrite With Keywords",
+    "subtitle": "Need to rewrite paragraphs using specific keywords? Generate high-quality rewrites with our AI powered Rewrite With Keywords Tool.",
+    "sampleOutputText": "Rewrite With Keywords",
+    "displayOn": [],
+    "route": "rewrite-with-keywords",
+    "apiType": "web-tools",
+    "apiRoute": "rewrite-with-keywords",
+    "img": {
+      "darkTheme": "/assets/tools_images/dark/Layer 2.png",
+      "lightTheme": "/assets/tools_images/light/Squeeze Page Hero Text Generator.png"
+    },
+    "textInputs": [
+      {
+        "name": "Content To Rewrite",
+        "key": "content_to_rewrite",
+        "placeholder": "important ways to protect you and your family against injury from a variety of sources such as car crashes, falls, and poisonous stone and arrow heads.",
+        "showTextArea": true,
+        "maxLimit": 400,
+        "minLimit": 3
+      },
+      {
+        "name": "Keywords",
+        "key": "keywords",
+        "placeholder": "safety tips, child safety book, safety handbook",
+        "showTextArea": false,
+        "maxLimit": 200,
+        "minLimit": 3
+      },
+      {
+        "name": "Tone of Voice",
+        "key": "tone_of_voice",
+        "placeholder": "",
+        "showTextArea": false,
+        "maxLimit": 80,
+        "minLimit": 0
+      }
+    ],
+    "outputInput": { "minLimit": 10, "maxLimit": 400 },
+    "status": "Updated"
+  },
+  {
+    "id": 194,
+    "name": "Question Generator",
+    "category": [],
+    "subcategory": null,
+    "title": "Question Generator",
+    "subtitle": "Need to generate various types of questions for your content? Quickly come up with queries using our AI powered Question Generator.",
+    "sampleOutputText": "Question Generator",
+    "displayOn": [],
+    "route": "question-generator",
+    "apiType": "web-tools",
+    "apiRoute": "question-generator",
+    "img": {
+      "darkTheme": "/assets/tools_images/dark/Layer 2.png",
+      "lightTheme": "/assets/tools_images/light/Squeeze Page Hero Text Generator.png"
+    },
+    "textInputs": [
+      {
+        "name": "What is the question for",
+        "key": "question_for",
+        "placeholder": "learn how to repair a house with carpenter tools",
+        "showTextArea": false,
+        "maxLimit": 400,
+        "minLimit": 3
+      },
+      {
+        "name": "Tone of Voice",
+        "key": "tone_of_voice",
+        "placeholder": "",
+        "showTextArea": false,
+        "maxLimit": 80,
+        "minLimit": 0
+      }
+    ],
+    "outputInput": { "minLimit": 10, "maxLimit": 400 },
+    "status": "NEW!"
+  },
+  {
+    "id": 195,
+    "name": "Service Page Seo Meta",
+    "category": [],
+    "subcategory": null,
+    "title": "Service Page Seo Meta",
+    "subtitle": "Service Page Seo Meta",
+    "sampleOutputText": "Service Page Seo Meta",
+    "displayOn": [],
+    "route": "service-page-seo-meta",
+    "apiType": "web-tools",
+    "apiRoute": "service-page-seo-meta",
+    "img": {
+      "darkTheme": "/assets/tools_images/dark/Layer 2.png",
+      "lightTheme": "/assets/tools_images/light/Squeeze Page Hero Text Generator.png"
+    },
+    "textInputs": [
+      {
+        "name": "Product Name",
+        "key": "product_name",
+        "placeholder": "INK",
+        "showTextArea": false,
+        "maxLimit": 80,
+        "minLimit": 0
+      },
+      {
+        "name": "Brief Concept",
+        "key": "brief_concept",
+        "placeholder": "SEO Web Content Writing and Optimization Powered by AI.",
+        "showTextArea": false,
+        "maxLimit": 400,
+        "minLimit": 3
+      }
+    ],
+    "outputInput": { "minLimit": 10, "maxLimit": 400 },
+    "status": "NEW!"
+  },
+  {
+    "id": 196,
+    "name": "Company Bio Generator",
+    "category": [],
+    "subcategory": null,
+    "title": "Company Bio Generator",
+    "subtitle": "Need engaging bio examples that reflects your brand's identity? Generate a unique company bio fast with our AI powered Company Bio Generator.",
+    "sampleOutputText": "Company Bio Generator",
+    "displayOn": [],
+    "route": "company-bio-generator",
+    "apiType": "web-tools",
+    "apiRoute": "company-bio-generator",
+    "img": {
+      "darkTheme": "/assets/tools_images/dark/Layer 2.png",
+      "lightTheme": "/assets/tools_images/light/Squeeze Page Hero Text Generator.png"
+    },
+    "textInputs": [
+      {
+        "name": "Brand Name",
+        "key": "brand_name",
+        "placeholder": "INK",
+        "showTextArea": false,
+        "maxLimit": 80,
+        "minLimit": 0
+      },
+      {
+        "name": "Brand Information",
+        "key": "brand_information",
+        "placeholder": "SEO Web Content Writing and Optimization Powered by AI.",
+        "showTextArea": true,
+        "maxLimit": 400,
+        "minLimit": 3
+      },
+      {
+        "name": "Tone of Voice",
+        "key": "tone_of_voice",
+        "placeholder": "",
+        "showTextArea": false,
+        "maxLimit": 80,
+        "minLimit": 0
+      }
+    ],
+    "outputInput": { "minLimit": 10, "maxLimit": 400 },
+    "status": "NEW!"
+  },
+  {
+    "id": 197,
+    "name": "Generate Blog Title Listicle",
+    "category": [],
+    "subcategory": null,
+    "title": "Generate Blog Title Listicle",
+    "subtitle": "Do you need to generate blog title listicle ideas for your post? Use our Blog Title — Listicle Generator to create awesome titles quickly.",
+    "sampleOutputText": "Generate Blog Title Listicle",
+    "displayOn": [],
+    "route": "generate-blog-title-listicle",
+    "apiType": "web-tools",
+    "apiRoute": "generate-blog-title-listicle",
+    "img": {
+      "darkTheme": "/assets/tools_images/dark/Layer 2.png",
+      "lightTheme": "/assets/tools_images/light/Squeeze Page Hero Text Generator.png"
+    },
+    "textInputs": [
+      {
+        "name": "Product Name",
+        "key": "product_name",
+        "placeholder": "INK",
+        "showTextArea": false,
+        "maxLimit": 80,
+        "minLimit": 0
+      },
+      {
+        "name": "Product Description",
+        "key": "product_description",
+        "placeholder": "Best AI Tools",
+        "showTextArea": true,
+        "maxLimit": 400,
+        "minLimit": 3
+      }
+    ],
+    "outputInput": { "minLimit": 10, "maxLimit": 400 },
+    "status": "NEW!"
+  },
+  {
+    "id": 198,
+    "name": "Bullets To Paragraph Converter",
+    "category": [],
+    "subcategory": null,
+    "title": "Bullets To Paragraph Converter",
+    "subtitle": "Transform bullet text into easy-to-read paragraphs. Convert bullet text to paragraph with our AI powered Bullets to Paragraph Converter.",
+    "sampleOutputText": "Bullets To Paragraph Converter",
+    "displayOn": [],
+    "route": "bullets-to-paragraph-converter",
+    "apiType": "web-tools",
+    "apiRoute": "bullets-to-paragraph-converter",
+    "img": {
+      "darkTheme": "/assets/tools_images/dark/Layer 2.png",
+      "lightTheme": "/assets/tools_images/light/Squeeze Page Hero Text Generator.png"
+    },
+    "textInputs": [
+      {
+        "name": "Title",
+        "key": "title",
+        "placeholder": "Global Warming",
+        "showTextArea": false,
+        "maxLimit": 80,
+        "minLimit": 0
+      },
+      {
+        "name": "Target Points",
+        "key": "target_points",
+        "placeholder": "- Global warming affects the environment \n- Rise in temperatures \n- Extreme weather",
+        "showTextArea": true,
+        "maxLimit": 400,
+        "minLimit": 3
+      }
+    ],
+    "outputInput": { "minLimit": 10, "maxLimit": 400 },
+    "status": "NEW!"
+  },
+  {
+    "id": 198,
+    "name": "LinkedIn Recommendation Generator",
+    "category": [],
+    "subcategory": null,
+    "title": "LinkedIn Recommendation Generator",
+    "subtitle": "Need help crafting LinkedIn recommendations? Generate high-quality content quickly with our AI powered LinkedIn Recommendation Generator.",
+    "sampleOutputText": "LinkedIn Recommendation Generator",
+    "displayOn": [],
+    "route": "linkedin-recommendation-generator",
+    "apiType": "web-tools",
+    "apiRoute": "linkedin-recommendation-generator",
+    "img": {
+      "darkTheme": "/assets/tools_images/dark/Layer 2.png",
+      "lightTheme": "/assets/tools_images/light/Squeeze Page Hero Text Generator.png"
+    },
+    "textInputs": [
+      {
+        "name": "Person / Brand Name",
+        "key": "person_brand_name",
+        "placeholder": "Steve Jobs",
+        "showTextArea": false,
+        "maxLimit": 80,
+        "minLimit": 0
+      },
+      {
+        "name": "Talking Points",
+        "key": "talking_points",
+        "placeholder": "Visionary leader. Can be strict but gets things done. Has high standards. Invents modern day computing.",
+        "showTextArea": true,
+        "maxLimit": 400,
+        "minLimit": 3
+      }
+    ],
+    "outputInput": { "minLimit": 10, "maxLimit": 400 },
+    "status": "NEW!"
+  },
+  {
+    "id": 199,
+    "name": "Resume Bullet Points",
+    "category": [],
+    "subcategory": null,
+    "title": "Resume Bullet Points",
+    "subtitle": "Get straight to the point by adding dot symbols to your resume. Craft clear bullet points in seconds with our Resume Bullet Points Tool.",
+    "sampleOutputText": "Resume Bullet Points",
+    "displayOn": [],
+    "route": "resume-bullet-points",
+    "apiType": "web-tools",
+    "apiRoute": "resume-bullet-points",
+    "img": {
+      "darkTheme": "/assets/tools_images/dark/Layer 2.png",
+      "lightTheme": "/assets/tools_images/light/Squeeze Page Hero Text Generator.png"
+    },
+    "textInputs": [
+      {
+        "name": "Role",
+        "key": "role",
+        "placeholder": "IT programmer",
+        "showTextArea": false,
+        "maxLimit": 80,
+        "minLimit": 0
+      },
+      {
+        "name": "Experience",
+        "key": "experience",
+        "placeholder": "After graduation I made career switch to web development.",
+        "showTextArea": true,
+        "maxLimit": 400,
+        "minLimit": 3
+      }
+    ],
+    "outputInput": { "minLimit": 10, "maxLimit": 400 },
+    "status": "NEW!"
+  },
+  {
+    "id": 199,
+    "name": "Recommendation Generator",
+    "category": [],
+    "subcategory": null,
+    "title": "Recommendation Generator",
+    "subtitle": "Struggling to craft recommendation examples that resonate? Easily create high-quality content with our AI powered Recommendation Generator.",
+    "sampleOutputText": "Recommendation Generator",
+    "displayOn": [],
+    "route": "recommendation-generator",
+    "apiType": "web-tools",
+    "apiRoute": "recommendation-generator",
+    "img": {
+      "darkTheme": "/assets/tools_images/dark/Layer 2.png",
+      "lightTheme": "/assets/tools_images/light/Squeeze Page Hero Text Generator.png"
+    },
+    "textInputs": [
+      {
+        "name": "Who",
+        "key": "who",
+        "placeholder": "Joe",
+        "showTextArea": false,
+        "maxLimit": 80,
+        "minLimit": 0
+      },
+      {
+        "name": "Unique Quality",
+        "key": "unique_quality",
+        "placeholder": "Excellent experience in SEO.",
+        "showTextArea": true,
+        "maxLimit": 400,
+        "minLimit": 3
+      }
+    ],
+    "outputInput": { "minLimit": 10, "maxLimit": 400 },
+    "status": "NEW!"
+  },
+  {
+    "id": 200,
+    "name": "INK Multitool",
+    "category": [],
+    "subcategory": null,
+    "title": "INK Multitool",
+    "subtitle": "Quickly access all of our INK tools from a single interface!",
+    "sampleOutputText": "INK Multitool",
+    "displayOn": [],
+    "route": "multi-tool",
+    "apiType": "web-tools",
+    "apiRoute": "command-ink",
+    "img": {
+      "darkTheme": "/assets/tools_images/dark/Layer 2.png",
+      "lightTheme": "/assets/tools_images/light/Squeeze Page Hero Text Generator.png"
+    },
+    "textInputs": [
+      {
+        "name": "Provide some context",
+        "key": "provide_some_context",
+        "placeholder": "NOCODE is a platform that connects you to hundreds of talented people worldwide who work with no-code tools. Hire no-code developers to help you build your web and mobile apps.",
+        "showTextArea": true,
+        "maxLimit": 400,
+        "minLimit": 3
+      },
+      {
+        "name": "INK Tool",
+        "key": "ink_tool",
+        "placeholder": "Write an AIDA",
+        "showTextArea": false,
+        "maxLimit": 100,
+        "minLimit": 3
+      }
+    ],
+    "outputInput": { "minLimit": 10, "maxLimit": 400 },
+    "status": "NEW!"
+  },
+  {
+    "id": 201,
+    "name": "Imagery Tool",
+    "category": [],
+    "subcategory": null,
+    "title": "Imagery Tool",
+    "subtitle": "Imagery Tool",
+    "sampleOutputText": "Imagery Tool",
+    "displayOn": [],
+    "route": "image-generator",
+    "apiType": "web-tools",
+    "apiRoute": "imagery-generate",
+    "img": {
+      "darkTheme": "/assets/tools_images/dark/Layer 2.png",
+      "lightTheme": "/assets/tools_images/light/Squeeze Page Hero Text Generator.png"
+    },
+    "textInputs": [
+      {
+        "name": "User Prompt",
+        "key": "user_prompt",
+        "placeholder": "computer",
+        "showTextArea": true,
+        "maxLimit": 400,
+        "minLimit": 3
+      },
+      {
+        "name": "Style Name",
+        "key": "style_name",
+        "placeholder": "1940",
+        "showTextArea": false,
+        "maxLimit": 400,
+        "minLimit": 3
+      }
+    ],
+    "type": "image-tool",
+    "outputInput": { "minLimit": 10, "maxLimit": 400 },
+    "status": "NEW!"
+  }
+]
