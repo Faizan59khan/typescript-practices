@@ -44,9 +44,6 @@ const quiz : Quiz[] = [
 ] 
 
 
-
-
-
 function quizProgram(quiz: Quiz[]){
   const div=document.querySelector('#quetions');
   let j=0;
@@ -64,10 +61,12 @@ function quizProgram(quiz: Quiz[]){
     div?.appendChild(h3);
     div?.appendChild(select);
     j++;
-  })
+
+})
 }
 
 quizProgram(quiz)
+
 function checkAnswers(){
   const div=document.querySelector('#quetions') as HTMLSelectElement;
   let j=div.childNodes.length/2; 
@@ -83,4 +82,5 @@ function checkAnswers(){
    div.appendChild(h4); 
 } 
 }
+
 

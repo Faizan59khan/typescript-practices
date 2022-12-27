@@ -72,11 +72,38 @@
 // myUser.email="ff@gmail.com";
 // myUser._id= "11"; //error readonly
 
-const MLModels: number[][]=[ //array of arrays
-  [255,255,255],
-  [255,255,255],
-  [255,255,255],
-]
+// const MLModels: number[][]=[ //array of arrays
+//   [255,255,255],
+//   [255,255,255],
+//   [255,255,255],
+// ]
+
+//============== ENUMS ==================:
+// enum ShapeKind{
+//   Circle,
+//   Square,
+//   Rectangle
+// }
+
+// interface Circle{
+//   kind: ShapeKind.Circle,
+//   radius: number
+// }
+
+// interface Square{
+//   kind: ShapeKind.Square,
+//   radius: number
+// }
+
+// let c: Circle = {
+//   kind: ShapeKind.Circle,
+//   radius: 5
+// }
+
+
+
+
+
 
 
  

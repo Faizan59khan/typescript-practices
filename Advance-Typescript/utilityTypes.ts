@@ -59,14 +59,42 @@
 
 //4)Exclude (remove something from type1)
 //Syntax : Exclude<all union types , removable union types>
-type availableDrink= 'tea' | 'coffee' | 'lemonade' | 'coke' | 'cold-coffee';
-type drinksJamesNotLike = 'coffee';
+// type availableDrink= 'tea' | 'coffee' | 'lemonade' | 'coke' | 'cold-coffee';
+// type drinksJamesNotLike = 'coffee';
 
-let jamesDrink : Exclude<availableDrink,drinksJamesNotLike>;
-jamesDrink='tea';
+// let jamesDrink : Exclude<availableDrink,drinksJamesNotLike>;
+// jamesDrink='tea';
 
 //5) Extract opposite of exclude
-let johnDrinks: Extract<availableDrink,drinksJamesNotLike>
-johnDrinks='coffee'
+// let johnDrinks: Extract<availableDrink,drinksJamesNotLike>   //Intersection
+// johnDrinks='coffee'
 
+
+//6) OMIT(type,keys)
+// type person={
+//   firstName: string,
+//   lastName: string,
+//   hobbies: string[]
+// }
+
+// type SomePerson=Omit<person, 'lastName'>
+
+// const data: SomePerson={
+//   firstName: 'fazian',
+//   hobbies: ['cricket', 'dance', 'coding']
+// }
+
+//7) ReadOnly(Type)
+// type readOnlyPerson=Readonly<person>
+// let person2: readOnlyPerson = {firstName: 'Shahid', lastName: 'Afridi', hobbies: ['painting']};
+
+// person2.name="Salim";  //readonly
+
+
+//8) Required(Type)
+type Customer={
+  name: string,
+}
+
+type reqCustomer=Required<Customer>
 
