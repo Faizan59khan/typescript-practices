@@ -8,9 +8,10 @@ interface Props{
   description: string
   setTitle: Function
   setDesc: Function
+  fetchStickyNotes: Function
 }
 
-const CreateNotes : React.FC<Props> = ({title,description,setTitle,setDesc}) => {
+const CreateNotes : React.FC<Props> = ({title,description,setTitle,setDesc,fetchStickyNotes}) => {
 
   const addNotes=async (id: Function)=>{
     let url="http://localhost:3001/stickyNotes";
@@ -23,6 +24,8 @@ const CreateNotes : React.FC<Props> = ({title,description,setTitle,setDesc}) => 
     }).catch((err)=>{
       console.log(err);
     })
+
+    fetchStickyNotes();
   }
 
   return (

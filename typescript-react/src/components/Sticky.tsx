@@ -10,9 +10,10 @@ interface NotesData{
 interface Props{
  data: NotesData[]
  setData: Function,
+ fetchStickyNotes: Function
 }
 
-const Sticky: React.FC<Props> = ({data,setData}) => {
+const Sticky: React.FC<Props> = ({data,setData,fetchStickyNotes}) => {
 
 
  const editNotes=(id: Number)=>{
@@ -31,8 +32,8 @@ const Sticky: React.FC<Props> = ({data,setData}) => {
   }).catch((err)=>{
     console.log(err)
   })
+  fetchStickyNotes()
  }
-
  }
 
  const deleteNotes=(id: Number)=>{
@@ -42,6 +43,7 @@ const Sticky: React.FC<Props> = ({data,setData}) => {
    }).catch((err)=>{
     console.log(err)
    })
+   fetchStickyNotes()
  }
  
 

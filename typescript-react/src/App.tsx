@@ -32,8 +32,8 @@ const App : React.FC<Props> = () => {
 
   return (
     <div>
-      <CreateNotes title={title} description={desc} setTitle={setTitle} setDesc={setDesc} />
-      <Sticky data={data} setData={setData} />
+      <CreateNotes title={title} description={desc} setTitle={setTitle} setDesc={setDesc} fetchStickyNotes={fetchStickyNotes}/>
+      <Sticky data={data} setData={setData} fetchStickyNotes={fetchStickyNotes} />
     </div>
   )
 }
