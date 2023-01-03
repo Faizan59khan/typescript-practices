@@ -1,5 +1,7 @@
-import React, { useState, useId } from 'react'
+import React, { useState, useId, useEffect } from 'react'
 import axios from 'axios'
+
+
 
 interface Props{
   title: string
@@ -21,7 +23,6 @@ const CreateNotes : React.FC<Props> = ({title,description,setTitle,setDesc}) => 
     }).catch((err)=>{
       console.log(err);
     })
-
   }
 
   return (

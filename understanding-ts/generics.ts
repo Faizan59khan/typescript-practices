@@ -48,3 +48,12 @@ function anotherFunction<T,U extends Database>(valueOne: T,valueTwo: U): object{
    }
 }
 console.log(anotherFunction("hi",{connection:'connect', password: '1234'}))
+
+//3) Detect Types (typeof typeguards)
+function detectType(id: string | null){
+  if(typeof id === 'string' ){
+    return id.toLowerCase();
+  }
+  console.log('plz provide id')
+  return 
+}

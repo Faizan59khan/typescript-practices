@@ -1,28 +1,49 @@
-import React, { useEffect, useState } from 'react'
+import axios from 'axios'
+import React, { useCallback, useEffect, useId, useMemo, useState } from 'react'
 
-interface Props{
+
+interface NotesData{
+  id: Number
   title: string,
   description: string
 }
+interface Props{
+ data: NotesData[]
+ setData: Function,
+}
+
+const Sticky: React.FC<Props> = ({data,setData}) => {
 
 
-const Sticky: React.FC<Props> = () => {
-  const [data,setData]=useState<Props[]>();
-  const fetchStickyNotes=async ()=>{
-    let url="http://localhost:3001/stickyNotes"
-    try{
-    const data= await (await fetch(url)).json();
-    setData(data)
-    }
-    catch(err){
-     console.log(err)
-    }
+ const editNotes=(id: Number)=>{
+  let url=`http://localhost:3001/stickyNotes/${id}`
+  axios.get(url).then((res)=>{
+    console.log(res)
+  }).catch((err)=>{
+    console.log(err)
+  })
+  let title=prompt('Edit the title')
+  let description=prompt('Enter the desc')
+
+  if(title && description){
+  axios.put(url,{id: useId, title: title, description: description}).then((res)=>{
+    console.log(res)
+  }).catch((err)=>{
+    console.log(err)
+  })
+ }
+
+ }
+
+ const deleteNotes=(id: Number)=>{
+   let url=`http://localhost:3001/stickyNotes/${id}`
+   axios.delete(url).then((res)=>{
+    console.log(res)
+   }).catch((err)=>{
+    console.log(err)
+   })
  }
  
- useEffect(()=>{
-   fetchStickyNotes();
- },[data])
-
 
 
   return (
@@ -44,7 +65,8 @@ const Sticky: React.FC<Props> = () => {
                   padding: '5px'
                 }}
               >
-                
+                <button onClick={()=>deleteNotes(notes?.id)}>Delete</button>
+                <button onClick={()=>editNotes(notes?.id)}>Edit</button>
                 <span style={{textAlign: 'right'}}>a minute ago</span>
                 <h4>{notes?.title}</h4>
                 <div style={{
